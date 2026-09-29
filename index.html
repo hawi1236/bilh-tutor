@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ብልህ ቱቶር | Bilh Tutors Full-Stack - ድሬዳዋ</title>
+  <meta name="description" content="ብልህ ቱቶር (ድሬዳዋ ቅርንጫፍ) - የወላጅ አስጠኚ መጠየቂያ፣ የተማሪዎች ስራ ቦርድ እና የመታወቂያ (School ID) ማረጋገጫ::">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div>
+      <span>📍 ብልህ ቱቶር (ድሬዳዋ ቅርንጫፍ) • 📞 አሁኑኑ ይደውሉ: <a href="tel:0951155327" style="color:#fff; text-decoration:underline;">0951155327</a></span>
+    </div>
+    <div class="top-bar-links">
+      <a href="https://t.me/bilh_tutor" target="_blank" rel="noopener">✈️ በቴሌግራም ይከተሉን (@bilh_tutor)</a>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="brand-logo">
+        <img src="assets/images/logo.jpg" alt="ብልህ ቱቶር Logo" class="logo-img">
+        <div>
+          <div class="brand-title">ብልህ ቱቶር <span class="branch-badge">ድሬዳዋ</span></div>
+          <div class="brand-tagline">ትምህርትን በብልሃት በብልህ ቱቶር</div>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero">መነሻ</a></li>
+        <li><a href="#family-portal">👨‍👩‍👧‍👦 የወላጅ ፖርታል</a></li>
+        <li><a href="#jobs-portal">🎓 የቱቶር ስራዎች & ID</a></li>
+        <li><a href="#admin-portal">🛡️ የአድሚን ዳሽቦርድ</a></li>
+      </ul>
+
+      <div style="display: flex; gap: 12px; align-items: center;">
+        <button id="themeToggleBtn" class="theme-toggle-btn">🌙 የማታ እይታ</button>
+        <a href="#jobs-portal" class="btn-accent">💼 ስራዎችን ይመልከቱ</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <span style="background: var(--accent-light); color: var(--accent-hover); font-weight: 700; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; display: inline-block; margin-bottom: 12px;">
+        ✨ ሰላም እንዴት ናቹ! እንኳን ወደ ብልህ ቱቶር መጣቹ
+      </span>
+      <h1>ለልጆቾ ውጤታማነትና ለተማሪዎች የስራ እድል!</h1>
+      <p class="subtitle">
+        ወላጆች የሚፈልጉትን አስጠኚ ከአድሚን ይጠይቃሉ፤ አስጠኚ ተማሪዎች ደግሞ የትምህርት ቤት መታወቂያቸውን (School ID) በመላክ ክፍት ስራዎችን ያመቻቻሉ::
+      </p>
+
+      <div class="hero-cta">
+        <a href="#family-portal" class="btn-primary">
+          <span>👨‍👩‍👧‍👦 ወላጅ: አስጠኚ ይጠይቁ</span>
+        </a>
+        <a href="#jobs-portal" class="btn-secondary">
+          <span>🎓 ተማሪ: ስራ ያግኙ (Send ID)</span>
+        </a>
+        <a href="#admin-portal" class="btn-accent">
+          <span>🛡️ የአድሚን መቆጣጠሪያ</span>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="num">KG - 12</div>
+          <div class="lbl">በሁሉም የትምህርት ዓይነቶች</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">100% ID</div>
+          <div class="lbl">የተረጋገጡ አስጠኚዎች</div>
+        </div>
+        <div class="stat-item">
+          <div class="num">ድሬዳዋ</div>
+          <div class="lbl">ቤት ለቤት & Online</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image-wrapper">
+      <img src="assets/images/hero.jpg" alt="Bilh Tutors Ethiopian Tutoring" class="hero-img">
+      <div class="floating-card">
+        <div class="floating-icon">🛡️</div>
+        <div>
+          <div style="font-weight: 800; font-size: 0.95rem;">የተረጋገጠ መታወቂያ (Verified ID)</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">አስጠኚዎች ከመመደባቸው በፊት School ID ይረጋገጣል</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Family / Parent Request Portal -->
+  <section id="family-portal" class="connect-section">
+    <div class="section-title">
+      <h2>👨‍👩‍👧‍👦 የወላጅ ፖርታል (ለልጅዎ አስጠኚ ይጠይቁ)</h2>
+      <p>ወላጆች የሚፈልጉትን የትምህርት ደረጃ፣ ሰዓት እና የክፍያ መጠን በመግለጽ ለአድሚን ጥያቄ ይልካሉ</p>
+    </div>
+
+    <div class="form-container">
+      <form id="familyJobRequestForm">
+        <div class="form-grid">
+          <div class="form-group">
+            <label>የወላጅ/ቤተሰብ ሙሉ ስም *</label>
+            <input type="text" id="parentName" class="form-control" placeholder="ለምሳሌ: አቶ ካሳሁን ታደሰ" required>
+          </div>
+          <div class="form-group">
+            <label>የስልክ ቁጥር *</label>
+            <input type="tel" id="parentPhone" class="form-control" placeholder="0911..." required>
+          </div>
+          <div class="form-group">
+            <label>የተማሪው የክፍል ደረጃ *</label>
+            <select id="parentGrade" class="form-control" required>
+              <option value="">ምረጡ...</option>
+              <option value="KG-4">KG እስከ 4ኛ ክፍል</option>
+              <option value="5-8">5ኛ እስከ 8ኛ ክፍል (8ኛ ብሔራዊ ፈተና)</option>
+              <option value="9-12">9ኛ እስከ 12ኛ ክፍል (12ኛ ብሔራዊ ፈተና)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>የመማሪያ መንገድ & አድራሻ (በድሬዳዋ) *</label>
+            <input type="text" id="parentLocation" class="form-control" placeholder="ለምሳሌ: ድሬዳዋ - ቀበሌ 02 (ቤት ለቤት)" required>
+          </div>
+          <div class="form-group">
+            <label>ትኩረት የሚፈልጉ የትምህርት ዓይነቶች *</label>
+            <input type="text" id="parentSubjects" class="form-control" placeholder="ለምሳሌ: ሒሳብ እና ፊዚክስ" required>
+          </div>
+          <div class="form-group">
+            <label>የሚከፈለው ወርሃዊ ክፍያ (በብር) *</label>
+            <input type="text" id="parentSalary" class="form-control" placeholder="ለምሳሌ: 3500 ብር/ወር" required>
+          </div>
+          <div class="form-group full-width">
+            <label>የጊዜ ሰሌዳ & மே ተጨማሪ ዝርዝር መረጃ</label>
+            <textarea id="parentDetails" class="form-control" rows="2" placeholder="ለምሳሌ: በሳምንት 3 ቀን ከቀኑ 10:00-12:00 ሰዓት..."></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn-primary" style="margin-top: 20px; width: 100%; justify-content: center;">
+          📩 ጥያቄውን ለአድሚን ላክ (Submit Job Request)
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Section 2: Tutor / Student Job Board & School ID Upload -->
+  <section id="jobs-portal" class="tutors-section">
+    <div class="section-title">
+      <h2>🎓 የክፍት አስጠኚ ስራዎች ቦርድ (ለተማሪዎች & አስጠኚዎች)</h2>
+      <p>አድሚኑ ያጸደቃቸውን ክፍት የስራ እድሎች ይመልከቱ፤ ለማመልከት የትምህርት ቤት መታወቂያዎን (School ID Card) ይላኩ</p>
+    </div>
+
+    <div id="openJobsContainer" class="tutors-grid">
+      <!-- Dynamic Job Cards from Backend -->
+    </div>
+  </section>
+
+  <!-- Application Modal with School ID Upload -->
+  <div id="applyModal" class="modal" style="display:none; position:fixed; inset:0; width:100%; height:100%; padding:16px; box-sizing:border-box; overflow-y:auto; background:rgba(0,0,0,0.6); z-index:3000; align-items:center; justify-content:center;">
+    <div class="modal-content" style="background:var(--bg-card); padding:30px; border-radius:var(--radius-lg); width:90%; max-width:550px; max-height:100%; overflow:hidden; box-sizing:border-box; border:1px solid var(--border-color); box-shadow:0 20px 40px rgba(0,0,0,0.3); position:relative; display:flex; flex-direction:column;">
+      <button id="closeModalBtn" style="position:absolute; top:16px; right:16px; background:none; border:none; font-size:1.5rem; cursor:pointer; color:var(--text-muted);">&times;</button>
+      <h3 style="color:var(--primary); margin-bottom:6px;">🎓 ለስራው ያመልክቱ & School ID ይላኩ</h3>
+      <p id="modalJobTitle" style="color:var(--accent); font-weight:700; margin-bottom:20px;"></p>
+
+      <form id="tutorApplyForm" style="display:flex; flex-direction:column; min-height:0; flex:1;">
+        <input type="hidden" id="applyJobId">
+        <div style="overflow-y:auto; min-height:0; flex:1; padding-right:4px;">
+        <div class="form-group" style="margin-bottom:12px;">
+          <label>ሙሉ ስምዎ *</label>
+          <input type="text" id="applicantName" class="form-control" placeholder="የእርስዎን ሙሉ ስም ያስገቡ" required>
+        </div>
+        <div class="form-group" style="margin-bottom:12px;">
+          <label>የስልክ ቁጥር & ቴሌግራም *</label>
+          <input type="text" id="applicantPhone" class="form-control" placeholder="09... / @username" required>
+        </div>
+        <div class="form-group" style="margin-bottom:12px;">
+          <label>የትምህርት ዘርፍ & ዩኒቨርሲቲ *</label>
+          <input type="text" id="applicantField" class="form-control" placeholder="ለምሳሌ: B.Sc in Engineering (Dire Dawa Univ)" required>
+        </div>
+        <div class="form-group" style="margin-bottom:12px;">
+          <label>አሁን ያሉበት ክፍል/ዓመት *</label>
+          <input type="text" id="applicantGrade" class="form-control" placeholder="ለምሳሌ: 12ኛ ክፍል ወይም 3ኛ ዓመት" required>
+        </div>
+        <div class="form-group" style="margin-bottom:12px;">
+          <label>የማስተማር ልምድ</label>
+          <input type="text" id="applicantExp" class="form-control" placeholder="ለምሳሌ: 3 ዓመት ልምድ">
+        </div>
+        <div class="form-group" style="margin-bottom:18px;">
+          <label style="color:var(--primary); font-weight:700;">🪪 የትምህርት ቤት መታወቂያ ምስል (Upload School ID Card) *</label>
+          <input type="file" id="schoolIdCardFile" class="form-control" accept="image/*" required>
+          <small style="color:var(--text-muted); display:block; margin-top:4px;">አድሚኑ መታወቂያዎን አረጋግጦ ስራውን ያጸድቅሎታል::</small>
+        </div>
+        </div>
+        <button type="submit" class="btn-accent" style="width:100%; justify-content:center;">
+          🚀 ማመልከቻውን & መታወቂያውን ላክ (Submit Application)
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Section 3: Admin Control Dashboard Portal -->
+  <section id="admin-portal" style="padding: 80px 24px; background: var(--primary-light);">
+    <div class="section-title">
+      <h2>🛡️ የአድሚን መቆጣጠሪያ ዳሽቦርድ (Admin Portal)</h2>
+      <p>የወላጅ ጥያቄዎችን ማጽደቅ/መልቀቅ እና የተማሪዎችን መታወቂያ (School ID) መፈተሽና ማረጋገጥ</p>
+    </div>
+
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <!-- Admin KPI Stats Cards -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; margin-bottom: 30px;">
+        <div class="feature-card" style="padding: 20px; align-items: center; text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--primary);" id="statTotalJobs">0</div>
+          <div style="font-size: 0.9rem; color: var(--text-muted);">ጠቅላላ የቤተሰብ ጥያቄዎች</div>
+        </div>
+        <div class="feature-card" style="padding: 20px; align-items: center; text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--accent);" id="statPendingRequests">0</div>
+          <div style="font-size: 0.9rem; color: var(--text-muted);">ማጽደቅ የሚጠብቁ ጥያቄዎች</div>
+        </div>
+        <div class="feature-card" style="padding: 20px; align-items: center; text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: var(--teal);" id="statPublishedJobs">0</div>
+          <div style="font-size: 0.9rem; color: var(--text-muted);">የተለቀቁ ክፍት ስራዎች</div>
+        </div>
+        <div class="feature-card" style="padding: 20px; align-items: center; text-align: center;">
+          <div style="font-size: 2rem; font-weight: 800; color: #ec4899;" id="statPendingApps">0</div>
+          <div style="font-size: 0.9rem; color: var(--text-muted);">የተማሪዎች ID ማረጋገጫዎች</div>
+        </div>
+      </div>
+
+      <!-- Admin Tabs -->
+      <div class="tab-buttons" style="margin-bottom: 24px;">
+        <button class="tab-btn active" id="adminTabJobsBtn">📋 የወላጆች ጥያቄዎች & ስራዎች</button>
+        <button class="tab-btn" id="adminTabAppsBtn">🪪 የተማሪዎች ማመልከቻዎች & School ID</button>
+      </div>
+
+      <!-- Admin Tab 1: Parent Jobs Table -->
+      <div id="adminJobsView" class="form-container" style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; min-width: 700px;">
+          <thead>
+            <tr style="border-bottom: 2px solid var(--border-color); text-align: left;">
+              <th style="padding: 10px;">ID</th>
+              <th style="padding: 10px;">ወላጅ & ስልክ</th>
+              <th style="padding: 10px;">ክፍል & ትምህርት</th>
+              <th style="padding: 10px;">ክፍያ</th>
+              <th style="padding: 10px;">ሁኔታ (Status)</th>
+              <th style="padding: 10px; text-align: right;">የአድሚን እርምጃ</th>
+            </tr>
+          </thead>
+          <tbody id="adminJobsTableBody">
+            <!-- Dynamic rows -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Admin Tab 2: Tutor School ID Applications Table -->
+      <div id="adminAppsView" class="form-container" style="display: none; overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; min-width: 700px;">
+          <thead>
+            <tr style="border-bottom: 2px solid var(--border-color); text-align: left;">
+              <th style="padding: 10px;">App ID</th>
+              <th style="padding: 10px;">አስጠኚ & ስልክ</th>
+              <th style="padding: 10px;">የተመለከተው ስራ</th>
+              <th style="padding: 10px;">School ID Card</th>
+              <th style="padding: 10px;">ሁኔታ</th>
+              <th style="padding: 10px; text-align: right;">የአድሚን ውሳኔ</th>
+            </tr>
+          </thead>
+          <tbody id="adminAppsTableBody">
+            <!-- Dynamic rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- School ID Preview Modal -->
+  <div id="idImageModal" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:3500; align-items:center; justify-content:center;">
+    <div style="background:var(--bg-card); padding:20px; border-radius:16px; max-width:600px; text-align:center;">
+      <h3 style="margin-bottom:15px; color:var(--primary);">🪪 የተማሪው የትምህርት ቤት መታወቂያ (School ID)</h3>
+      <img id="idImagePreview" src="" alt="School ID Preview" style="width:100%; max-height:400px; object-fit:contain; border-radius:12px; border:2px solid var(--border-color);">
+      <div style="margin-top:15px;">
+        <button id="closeIdModalBtn" class="btn-secondary">ዘጋ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h3 style="color:#fff; font-size:1.4rem; margin-bottom:12px;">ብልህ ቱቶር (Bilh Tutors)</h3>
+        <p>ትምህርትን በብልሃት በብልህ ቱቶር። የወላጆች፣ አስጠኚዎችና የአድሚን ሙሉ ስርዓት::</p>
+        <div style="margin-top: 15px;">
+          <span class="branch-badge" style="background:#1e293b; color:#38bdf8; border-color:#38bdf8;">ድሬዳዋ ቅርንጫፍ</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>ፈጣን አገናኞች</h4>
+        <ul style="list-style: none;">
+          <li><a href="#family-portal">የወላጅ ፖርታል</a></li>
+          <li><a href="#jobs-portal">የአስጠኚ ስራዎች ቦርድ</a></li>
+          <li><a href="#admin-portal">የአድሚን ዳሽቦርድ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>እኛን ለማግኘት</h4>
+        <p><strong>📞 ስልክ:</strong> <a href="tel:0951155327">0951155327</a> (አሁኑኑ ይደውሉ)</p>
+        <p><strong>✈️ ቴሌግራም:</strong> <a href="https://t.me/bilh_tutor" target="_blank">t.me/bilh_tutor</a></p>
+        <p><strong>📍 አድራሻ:</strong> ድሬዳዋ፣ ኢትዮጵያ</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2026 ብልህ ቱቶር (Bilh Tutors). መብቱ በህግ የተጠበቀ ነው።
+    </div>
+  </footer>
+
+  <div id="toast" class="toast-msg"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

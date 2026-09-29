@@ -1,0 +1,114 @@
+{
+  "jobs": [
+    {
+      "id": "JOB-286",
+      "parentName": "hh",
+      "phone": "0937776244",
+      "grade": "KG-4",
+      "subjects": "all",
+      "learningMode": "ቤት ለቤት",
+      "location": "sabiyan",
+      "salary": "3000",
+      "schedule": "ተለዋዋጭ",
+      "details": "",
+      "status": "assigned",
+      "createdAt": "2026-09-29T12:52:14.256Z"
+    },
+    {
+      "id": "JOB-388",
+      "parentName": "hh",
+      "phone": "0937776244",
+      "grade": "KG-4",
+      "subjects": "all",
+      "learningMode": "ቤት ለቤት",
+      "location": "sabiyan",
+      "salary": "3000",
+      "schedule": "ተለዋዋጭ",
+      "details": "4",
+      "status": "closed",
+      "createdAt": "2026-09-29T12:45:42.509Z"
+    },
+    {
+      "id": "JOB-101",
+      "parentName": "አቶ ካሳሁን ታደሰ",
+      "phone": "0911223344",
+      "grade": "9-12",
+      "subjects": "ሒሳብ እና ፊዚክስ (12ኛ ክፍል)",
+      "learningMode": "ቤት ለቤት",
+      "location": "ድሬዳዋ - ቀበሌ 02",
+      "salary": "3500 ብር/ወር",
+      "schedule": "በሳምንት 3 ቀን (ከቀኑ 10:00 - 12:00)",
+      "details": "ለ12ኛ ክፍል ብሔራዊ ፈተና ውጤታማ ድጋፍ የሚሰጥ አስጠኚ ይፈለጋል::",
+      "status": "published",
+      "createdAt": "2026-09-29T12:27:03.253Z"
+    },
+    {
+      "id": "JOB-102",
+      "parentName": "ወ/ሮ አልማዝ በቀለ",
+      "phone": "0922334455",
+      "grade": "5-8",
+      "subjects": "እንግሊዝኛ እና ሳይንስ (8ኛ ክፍል)",
+      "learningMode": "በአንላይን",
+      "location": "ድሬዳዋ / Online",
+      "salary": "2800 ብር/ወር",
+      "schedule": "በሳምንት 4 ቀን",
+      "details": "ለ8ኛ ክፍል ሚኒስትሪ ፈተና ዝግጅት ድጋፍ::",
+      "status": "published",
+      "createdAt": "2026-09-29T12:27:03.255Z"
+    },
+    {
+      "id": "JOB-103",
+      "parentName": "ዶ/ር አበራ ወርቁ",
+      "phone": "0933445566",
+      "grade": "KG-4",
+      "subjects": "ሁሉም የትምህርት ዓይነቶች (Primary)",
+      "learningMode": "ቤት ለቤት",
+      "location": "ድሬዳዋ - ቀበሌ 06",
+      "salary": "3000 ብር/ወር",
+      "schedule": "በሳምንት 3 ቀን",
+      "details": "ለ3ኛ ክፍል ተማሪ የቤት ስራና መሠረታዊ ንባብ ድጋፍ::",
+      "status": "published",
+      "createdAt": "2026-09-29T12:27:03.255Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "APP-606",
+      "jobId": "JOB-286",
+      "jobTitle": "all (KG-4)",
+      "tutorName": "hawi",
+      "phone": "09",
+      "fieldOfStudy": "ff",
+      "grade": "12",
+      "experience": "አዲስ አስጠኚ",
+      "schoolIdCardUrl": "/uploads/school_ids/school_id_1790686659502-475246331.jpg",
+      "status": "accepted",
+      "appliedAt": "2026-09-29T12:57:39.505Z"
+    },
+    {
+      "id": "APP-811",
+      "jobId": "JOB-286",
+      "jobTitle": "all (KG-4)",
+      "tutorName": "hawi",
+      "phone": "09",
+      "fieldOfStudy": "ff",
+      "grade": "12",
+      "experience": "አዲስ አስጠኚ",
+      "schoolIdCardUrl": "/uploads/school_ids/school_id_1790686615711-42082957.jpg",
+      "status": "pending_verification",
+      "appliedAt": "2026-09-29T12:56:55.716Z"
+    },
+    {
+      "id": "APP-501",
+      "jobId": "JOB-101",
+      "jobTitle": "ሒሳብ እና ፊዚክስ (12ኛ ክፍል)",
+      "tutorName": "ዮናስ ጌታቸው",
+      "phone": "0955667788",
+      "fieldOfStudy": "B.Sc in Electrical Engineering (Dire Dawa Univ)",
+      "experience": "4 ዓመት በቤት ለቤት አስጠኚነት",
+      "schoolIdCardUrl": "/assets/images/logo.jpg",
+      "status": "pending_verification",
+      "appliedAt": "2026-09-29T12:27:03.255Z"
+    }
+  ]
+}
